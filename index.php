@@ -9,14 +9,7 @@
     </head>
     <body>
 
-        <header>
-            <a href="index.html" target="_self"><img id="logo" src="img/logo.png" alt="Logo Artbox"></a>
-            <nav>
-                <ul>
-                    <li><a href="index.html" target="_self">Accueil</a></li>
-                </ul>
-            </nav>
-        </header>
+        <?php include 'header.php'; ?>
 
         <main>
             <div id="liste-oeuvres">
@@ -128,9 +121,7 @@
             </div>
         </main>
 
-        <footer>
-            <p><strong>© THE ARTBOX</strong> - <em>Tous droits réservés</em></p>
-        </footer>
+        <?php include 'footer.php'; ?>
 
     </body>
 </html>
