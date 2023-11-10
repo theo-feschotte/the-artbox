@@ -11,16 +11,16 @@ html, body {
 
 
 a {
-    text-decoration: none;
     color: inherit;
+    text-decoration: none;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
     max-width: 1080px;
     margin: auto;
     padding: 45px 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo {
@@ -28,9 +28,9 @@ header {
 }
 
 header ul {
-    list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 main {
@@ -39,8 +39,8 @@ main {
 }
 
 footer {
-    text-align: center;
     font-size: 12px;
+    text-align: center;
 }
 
 
@@ -60,28 +60,28 @@ footer {
 }
 
 .oeuvre h2, #detail-oeuvre h1 {
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 600;
     font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .oeuvre .description, #detail-oeuvre .description {
-    font-style: italic;
     margin-top: 0;
-    font-size: 12px;
     margin-bottom: 20px;
+    font-size: 12px;
+    font-style: italic;
 }
 
 #detail-oeuvre {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    padding: 0 15px;
     display: flex;
     flex-wrap: wrap;
     align-items: end;
-    margin-bottom: 100px;
-    margin-top: 75px;
     font-size: 14px;
-    padding: 0 15px;
 }
 
 #img-oeuvre {
@@ -104,8 +104,8 @@ footer {
     }
 
     #img-oeuvre {
-        margin-right: 0;
         width: 100%;
+        margin-right: 0;
     }
 
     #img-oeuvre img {
