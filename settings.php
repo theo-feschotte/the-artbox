@@ -4,8 +4,10 @@
 $site_NAME = "The Artbox";
 
 // Site logo
-$site_LOGO_src = "img/logo.png";
-$site_LOGO_alt = "Logo Artbox";
+$site_LOGO = [
+    "src" => "img/logo.png",
+    "alt" => "Logo Artbox",
+];
 
 // Site URL - index.php
 $site_URL = sprintf(
