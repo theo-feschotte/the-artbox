@@ -3,6 +3,10 @@
 // Site name - Tab name
 $siteNAME = "The Artbox";
 
+// Site logo
+$siteLOGO_src = "img/logo.png";
+$siteLOGO_alt = "Logo Artbox";
+
 // Site URL - index.php
 $siteURL = sprintf(
     "%s://%s%s",
