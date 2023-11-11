@@ -3,9 +3,7 @@
 <?php include('header.php'); ?>
 
 <main>
-    <div id="liste-oeuvres">
-        <?php oeuvres() ?>
-    </div>
+    <?php oeuvres() ?>
 </main>
 
 <?php include('footer.php'); ?>
