@@ -1,4 +1,4 @@
-<?php include('functions.php'); ?>
+<?php include('settings.php'); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
