@@ -36,7 +36,7 @@ function oeuvres() {
             echo('<div id="liste-oeuvres">');
             foreach ($oeuvres as $oeuvre) {
                 $mounted_oeuvre = '<article class="oeuvre">';
-                $mounted_oeuvre .= '<a href="oeuvre.php/?oeuvre-id='.$oeuvre['id'].'" target="_self">';
+                $mounted_oeuvre .= '<a href="/?oeuvre-id='.$oeuvre['id'].'" target="_self">';
                 $mounted_oeuvre .= '<img src="/img/oeuvres/'.$oeuvre['image']['src'].'" alt="'.$oeuvre['image']['alt'].'">';
                 $mounted_oeuvre .= '<h2>'.$oeuvre['name'].'</h2>';
                 $mounted_oeuvre .= '<p class="description">'.$oeuvre['description']['short'].'</p>';
