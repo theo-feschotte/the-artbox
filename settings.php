@@ -1,5 +1,8 @@
 <?php
 
+// Site name - Tab name
+$siteNAME = "The Artbox";
+
 // Site URL - index.php
 $siteURL = sprintf(
     "%s://%s%s",
