@@ -1,14 +1,14 @@
 <?php
 
 // Site name - Tab name
-$siteNAME = "The Artbox";
+$site_NAME = "The Artbox";
 
 // Site logo
-$siteLOGO_src = "img/logo.png";
-$siteLOGO_alt = "Logo Artbox";
+$site_LOGO_src = "img/logo.png";
+$site_LOGO_alt = "Logo Artbox";
 
 // Site URL - index.php
-$siteURL = sprintf(
+$site_URL = sprintf(
     "%s://%s%s",
     isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off' ? 'https' : 'http',
     $_SERVER['SERVER_NAME'],
