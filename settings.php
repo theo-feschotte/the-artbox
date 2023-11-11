@@ -15,6 +15,21 @@ $site_URL = sprintf(
     $_SERVER['REQUEST_URI'],
 );
 
+// $menu = [
+//     "Google" => [
+//         "Lien" => "https://google.com",
+//         "Target" => "_blank",
+//     ],
+//     "Facebook" => [
+//         "Lien" => "https://facebook.com",
+//         "Target" => "_blank",
+//     ],
+//     "Instagram" => [
+//         "Lien" => "https://instagram.com",
+//         "Target" => "_blank",
+//     ],
+// ];
+
 // $oeuvres = [
 //     "foo" => "bar",
 //     "multi" => [
